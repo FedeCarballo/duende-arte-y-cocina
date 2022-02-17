@@ -67,6 +67,7 @@ button{
     color: white;
     width: 50%;
 	padding: 10px;
+    margin-top: 3%;
 }
 .ContenedorSecundario img {
     width: 50%;
@@ -152,8 +153,13 @@ button{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: white;
 }
-iframe {
-   display: none;
+.mapa {
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+.mapa iframe {
+    align-self: center;
 }
 /* RESPONSIVE */
 
@@ -211,9 +217,9 @@ iframe {
     margin-bottom: 2vh;
     font-family: 'Saira', sans-serif;
 }
-iframe {
+/*iframe {
     display: initial;
     height: 20vh !important;
     width: 100% !important;
-}
+}*/
 }
