@@ -235,6 +235,45 @@ button{
     text-decoration: none;
     text-align: center;
 }
+/*CARDS DE OPINIONES*/
+.container {
+}
+.frame {
+    background-color: white;
+    border-radius: 5%;
+    margin: 10px;
+    width: 30%;
+    height: 300px;
+}
+.frame p{
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.frame h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.estrellas {
+    color: yellow !important;
+}
+/*FOOTER*/
+.footer {
+    background-color: white;
+    width: 100%;
+}
+.dato {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 1%;
+    width: 30%;
+}
+.dato h3 {
+    
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width:850px) {
