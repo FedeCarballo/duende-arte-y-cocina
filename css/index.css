@@ -235,6 +235,20 @@ button{
     text-decoration: none;
     text-align: center;
 }
+/*MENU*/
+.menu a{
+    width: 400px;
+    height: inherit;
+    margin: 1%;
+}
+.menu h2{
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 2vh;
+    font-family: 'Roboto', sans-serif;
+}
 /*CARDS DE OPINIONES*/
 .container {
 }
