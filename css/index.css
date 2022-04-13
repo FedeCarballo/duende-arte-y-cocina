@@ -348,7 +348,7 @@ button{
     background-color: #49011c;
     width: 100% !important;
     margin: 0 !important;
-    padding:0 !important;
+    padding: 30px !important;
 }
 .footer .row{
     display: flex;
