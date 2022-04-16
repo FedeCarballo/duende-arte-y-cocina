@@ -390,7 +390,7 @@ button{
 /* RESPONSIVE */
 @media screen and (max-width:650px){
     .ContenedorSecundario img {
-        margin: 0;
+        margin: 0 !important;
     }
     .logo{
         width: 60% !important;
