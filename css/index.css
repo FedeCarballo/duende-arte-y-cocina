@@ -39,6 +39,24 @@ button{
     margin-top: 2vh;
     padding: 10px;
 }
+.btnContacto2, .btnContacto3{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3vh;
+    align-items: center;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 2.4vh;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Francois One', sans-serif;
+}
+.btnContacto2:hover,.btnContacto3:hover {
+    background:linear-gradient(45deg, #E5FFCC, #1EBEA5, #00E676, #D0E9EA);
+    color: white;
+}
 .ContenedorPrimario{
     display: flex;
     justify-content: center;
@@ -70,9 +88,7 @@ button{
     object-fit: cover !important;
 }
 
-.btnContacto2{
-    display: none;
-}
+
 .ContenedorSecundario{
 	display: -ms-flex;
 	display: -webkit-flex;
@@ -371,9 +387,21 @@ button{
     width: 100% !important;
 }
 
-
 /* RESPONSIVE */
 @media screen and (max-width:650px){
+    .logo{
+        width: 60% !important;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ContenedorPrimario{
+        display: none !important;
+    }
+    .btnContacto2{
+     display: none !important;   
+    }
     .footer {
         background-color: #49011c;
         width: 100%;
@@ -411,8 +439,14 @@ button{
     }
 }
 @media screen and (min-width:651px) and (max-width:949px) {
+    .logo{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .ContenedorPrimario__text{
-        margin-top: 1vh !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -420,6 +454,9 @@ button{
         text-align: center;
         color: white;
     }
+    .btnContacto3{
+        display: none;   
+       }
     .texto-turismo p{
         text-align: left;
         color: white;
@@ -451,15 +488,10 @@ button{
         font-family: 'Saira', sans-serif;
         margin-left: 4.8vh;
     }
-    .logo{
-        width: 34%;
-        padding-bottom: 3vh;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .ContenedorPrimario{
+.btnContacto3{
+    display: none;   
+}
+.ContenedorPrimario{
     background: none !important;
     box-shadow: none !important;
     display: flex;
@@ -502,24 +534,6 @@ button{
     margin: auto !important ;
     justify-content: center !important;
     align-items: center !important;
-}
-.btnContacto2{
-    display: flex;
-    width: 95%;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 3vh;
-    align-items: center;
-    background: white;
-    color: rgb(0, 0, 0);
-    font-size: 2.4vh;
-    border-radius: 30px;
-    border: none;
-    font-family: 'Francois One', sans-serif;
-}
-.btnContacto2:hover{
-    background:linear-gradient(45deg, #E5FFCC, #1EBEA5, #00E676, #D0E9EA);
-    color: white;
 }
 .ContenedorSecundario{
     width: 100% !important;
@@ -617,4 +631,10 @@ button{
         font-family: 'Saira', sans-serif;
         margin-left: 4.8vh;
     }
+}
+
+@media screen and (min-width:1150px) {
+    .btnContacto3{
+        display: none;   
+       }
 }
