@@ -389,6 +389,9 @@ button{
 
 /* RESPONSIVE */
 @media screen and (max-width:650px){
+    .ContenedorSecundario img {
+        margin: 0;
+    }
     .logo{
         width: 60% !important;
         margin: auto;
