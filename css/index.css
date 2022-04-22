@@ -51,10 +51,11 @@ button{
     border-radius: 30px;
     border: none;
     font-family: 'Francois One', sans-serif;
+    transition: all 500ms;
 }
 .btnContacto2:hover,.btnContacto3:hover {
-    background:linear-gradient(45deg, #E5FFCC, #1EBEA5, #00E676, #D0E9EA);
-    color: white;
+    color: rgb(62, 62, 62);
+    box-shadow: rgba(0, 0, 0, 0.418) 12px 12px 10px -1px;
 }
 .ContenedorPrimario{
     display: flex;
@@ -164,6 +165,7 @@ button{
     width: 60px;
     height: 60px;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.418) 10px 10px 18px -1px;
 }
 .wpp{
     background:linear-gradient(45deg, #E5FFCC, #1EBEA5, #00E676, #D0E9EA);
@@ -413,9 +415,7 @@ button{
     .ContenedorPrimario{
         display: none !important;
     }
-    .btnContacto2{
-     display: none !important;   
-    }
+ 
     .footer {
         background-color: #49011c;
         width: 100%;
